@@ -1,6 +1,6 @@
 ---
 title: hexo×语雀 实现云端富文本写作
-tags:  - [教程](https://zfe.space/categories/%E6%95%99%E7%A8%8B/)
+tags:  - 教程
 top_img:
 cover:
 date: 2020-06-06 13:11:02
