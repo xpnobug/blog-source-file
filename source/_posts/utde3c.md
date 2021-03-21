@@ -1,3 +1,7 @@
+---
+title: vue仿网易云步骤
+---
+
 ## 前言
 
 今天偶然间在 Github 上发现了一个 Star 1.4k 的 [基于 Vue2、Vue-CLI3 的高仿网易云 mac 客户端播放器](https://github.com/sl1673495/vue-netease-music) 的项目
@@ -27,7 +31,7 @@ SH
 npm config set https-proxy "http://127.0.0.1:7890" # 端口是根据你的代理是啥端口就是啥端口
 ```
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228141202222.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228141202222.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228141202222.webp#align=left&display=inline&height=164&margin=%5Bobject%20Object%5D&originHeight=164&originWidth=885&status=done&style=none&width=885)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228141202222.webp)
 
 取消代理
 
@@ -42,13 +46,13 @@ npm config delete https-proxy
 
 本地调式完无误之后我们直接输入 `npm run build` 进行打包，就会生成个打包后的目录，`music`
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228142107290.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228142107290.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228142107290.webp#align=left&display=inline&height=450&margin=%5Bobject%20Object%5D&originHeight=450&originWidth=1071&status=done&style=none&width=1071)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228142107290.webp)
 
 然后我们把打包之后的内容 push 到 Github 上
 
 注：如果你使用 Gitee 方式的话，这一步就不需要了，直接 push 到 Gitee 上，然后开启 Gitee Pages 即可
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145035546.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145035546.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145035546.webp#align=left&display=inline&height=582&margin=%5Bobject%20Object%5D&originHeight=582&originWidth=1203&status=done&style=none&width=1203)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145035546.webp)
 
 ### 部署
 
@@ -65,31 +69,31 @@ npm config delete https-proxy
 
 右上角点击 [Sign Up](https://vercel.com/signup)，使用 Github 注册
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144101989.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144101989.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144101989.webp#align=left&display=inline&height=635&margin=%5Bobject%20Object%5D&originHeight=635&originWidth=1487&status=done&style=none&width=1487)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144101989.webp)
 
 输入 Github 账号密码之后，我们点击 Authorize Vercel（授权给 Vercel）
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144223350.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144223350.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144223350.webp#align=left&display=inline&height=834&margin=%5Bobject%20Object%5D&originHeight=834&originWidth=1419&status=done&style=none&width=1419)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144223350.webp)
 
 接着输入手机号码进行验证
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144428702.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144428702.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144428702.webp#align=left&display=inline&height=470&margin=%5Bobject%20Object%5D&originHeight=470&originWidth=1071&status=done&style=none&width=1071)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144428702.webp)
 
 验证成功之后我们点击 Continue
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144838966.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144838966.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144838966.webp#align=left&display=inline&height=542&margin=%5Bobject%20Object%5D&originHeight=542&originWidth=1614&status=done&style=none&width=1614)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144838966.webp)
 
 输入你 Github 仓库地址（也就是你刚刚打包 push 到 Github 的仓库地址）
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144858933.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144858933.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144858933.webp#align=left&display=inline&height=446&margin=%5Bobject%20Object%5D&originHeight=446&originWidth=1117&status=done&style=none&width=1117)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228144858933.webp)
 
 然后就继续 Continue，最后 Deploy
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145822068.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145822068.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145822068.webp#align=left&display=inline&height=743&margin=%5Bobject%20Object%5D&originHeight=743&originWidth=1784&status=done&style=none&width=1784)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145822068.webp)
 
 部署成功
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145943215.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145943215.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145943215.webp#align=left&display=inline&height=869&margin=%5Bobject%20Object%5D&originHeight=869&originWidth=1610&status=done&style=none&width=1610)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228145943215.webp)
 
 部署成功后 Vercel 会默认自带个二级域名，当然你也可以自定义
 
@@ -97,7 +101,7 @@ npm config delete https-proxy
 
 格式为：xxx.now.sh、xxx.vercel.app，xxx 表示你自定义的，然后直接 `Add`，如果没有人使用的话，会自动验证成功。
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150428825.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150428825.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150428825.webp#align=left&display=inline&height=713&margin=%5Bobject%20Object%5D&originHeight=713&originWidth=1340&status=done&style=none&width=1340)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150428825.webp)
 
 如果你想绑定自己域名的话，那你就直接输入自己的域名，点击右侧 Add 即可，下方会提示 `Invalid Config`
 
@@ -105,4 +109,4 @@ npm config delete https-proxy
 
 大功告成！！😁
 
-[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150617547.webp#alt=img)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150617547.webp)
+[![](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150617547.webp#align=left&display=inline&height=905&margin=%5Bobject%20Object%5D&originHeight=905&originWidth=1884&status=done&style=none&width=1884)](https://cdn.jsdelivr.net/gh/zjwo/img/houduan/vue/image-20201228150617547.webp)
