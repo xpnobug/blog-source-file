@@ -1,11 +1,13 @@
 ---
-title: vue仿网易云步骤
-date:
-type: 教程
-description:
-top_img:
-mathjax:
-katex:
+title: Java使用网易邮箱向QQ邮箱发送邮件
+
+date: 2020-05-10 16:30:00
+tags:
+ - 博客
+ - 教程
+categories: Hexo博客
+description: Java使用网易邮箱向QQ邮箱发送邮件
+cover: [https://home.myxx-writer.club/blog/Hexo.jpg](https://home.myxx-writer.club/blog/Hexo.jpg)
 ---
 
 使用 Java 应用程序发送 E-mail 十分简单，但是首先你应该在你的机器上安装 JavaMail API 和 Java Activation Framework (JAF) 。
