@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block content
+  include ./includes/mixins/post-ui.pug
+  #recent-posts.recent-posts
+    if theme.gitcalendar.enable
+      .recent-post-item(style='width:100%;margin-bottom:20px;overflow:hidden;')
+        !=partial('includes/gitcalendar', {}, {cache:true})
+    +postUI
+    include includes/pagination.pug
