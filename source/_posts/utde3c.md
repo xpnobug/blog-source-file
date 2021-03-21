@@ -2,7 +2,7 @@
 title: vue仿网易云步骤
 date:
 
-type:
+type: 教程
 description:
 top_img:
 mathjax:
