@@ -1,3 +1,7 @@
+---
+title: Linux
+---
+
 ## Linux 常用命令
 
 # 工作目录切换命令
@@ -29,7 +33,6 @@ cd ../..  返回上两级目录
 ## ls
 
 `ls` 命令显示目录中的文件信息
-
 ① 命令格式
 
 ```
@@ -52,7 +55,6 @@ ls --full-time  列出文件完整的日期和时间
 ```
 
 ③ params-参数
-
 指目录：指定要显示列表的目录，也可以是具体的文件。
 
 ## Linux 系统目录结构
@@ -61,7 +63,7 @@ ls --full-time  列出文件完整的日期和时间
 
 可在用户目录下使用 `ls` 命令列出所有目录，如图
 
-![](https://s2.ax1x.com/2020/03/03/3hW8fA.png#alt=avatar)
+![](https://s2.ax1x.com/2020/03/03/3hW8fA.png#align=left&display=inline&height=97&margin=%5Bobject%20Object%5D&originHeight=97&originWidth=1063&status=done&style=none&width=1063)
 
 ## 2. 一级目录
 
