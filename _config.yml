@@ -147,7 +147,7 @@ theme: butterfly
 deploy:
   type: git
   repository:
-    github: https://xpnobug:0325a429cfd6fcdb04c6cc18930b0f8736e76bb1@github.com/xpnobug/xpnobug.github.io.git
+    github: https://xpnobug:7f009d3d56cd9131069f0aadd228f48e8363f905@github.com/xpnobug/xpnobug.github.io.git
   branch: master
 #
 #deploy:
