@@ -5,8 +5,6 @@ date: 2020-05-10 16:30:00
 tags:
   - 博客
   - 教程
-
-description: Java使用网易邮箱向QQ邮箱发送邮件
 ---
 
 使用 Java 应用程序发送 E-mail 十分简单，但是首先你应该在你的机器上安装 JavaMail API 和 Java Activation Framework (JAF) 。
