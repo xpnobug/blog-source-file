@@ -4,11 +4,17 @@ title: Java使用网易邮箱向QQ邮箱发送邮件
 
 date: 2020-05-10 16:30:00
 tags:
- - 博客
- - 教程
-categories: Hexo博客
+
+
+- 博客
+- 教程
+
+categories:
+
+- [教程]
+
 description: Java使用网易邮箱向QQ邮箱发送邮件
-cover: [https://home.myxx-writer.club/blog/Hexo.jpg](https://home.myxx-writer.club/blog/Hexo.jpg)
+cover: [https://home.myxxwriter.club/blog/Hexo.jpg](https://home.myxx-writer.club/blog/Hexo.jpg)
 
 ---
 
